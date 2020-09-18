@@ -6,17 +6,18 @@ public class Eligible{
 	{
 		Scanner sc = new Scanner(System.in);
 		System.out.print(" PERSON'S GENDER MALE(m) OR FEMALE(f): ");
-		String gender = sc.next();
+		char gender = sc.next.charAt(0);
 		System.out.print(" PERSON'S AGE :");
 		int age = sc.nextInt();
-		if(age >=18)
-		{
-			System.out.println(" PERSON IS ELIGIBLE FOR MARRIAGE");
-		}
-		else
-		{
-			System.out.println(" PERSON IS NOT ELIGIBLE FOR MARRIAGE");
-		}
+		if( ch == 'm' && Age >=21){
+				System.out.println("Person is Eligible for Marriage");
+			}
+			else if ( ch == 'f' && Age >=18){
+				System.out.println("Person is Eligible for Marriage");
+			}
+			else{	
+				System.out.println("Person is not Eligible for Marriage");
+			}
 	}
 
 
