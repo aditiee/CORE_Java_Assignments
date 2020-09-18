@@ -9,10 +9,10 @@ public class Eligible{
 		char gender = sc.next.charAt(0);
 		System.out.print(" PERSON'S AGE :");
 		int age = sc.nextInt();
-		if( ch == 'm' && Age >=21){
+		if( ch == 'm' && age >=21){
 				System.out.println("Person is Eligible for Marriage");
 			}
-			else if ( ch == 'f' && Age >=18){
+			else if ( ch == 'f' && age >=18){
 				System.out.println("Person is Eligible for Marriage");
 			}
 			else{	
