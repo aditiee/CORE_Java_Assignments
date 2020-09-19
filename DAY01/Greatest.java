@@ -11,16 +11,20 @@ public class Greatest{
 		int num2 = sc.nextInt();
 		System.out.print("ENTER THIRD NUMBER : ");
 		int num3 = sc.nextInt();
-		if(num1 >= num2 && num1 >= num3)
+		if(num1 >num2 && num1>num3)
 		{
 			System.out.println(num1 + " Is the Greatest Among three numbers");
-		}else if(num2 >= num1 && num2 >=num3)
+		}else if(num2 > num1 && num2 >num3)
 		{
 			System.out.println(num2 + " Is the Greatest Among three numbers");
 		}
-		else
+		else  if(num3>num1 && num3>num2)
 		{
 			System.out.println(num3 + " Is the Greatest Among three numbers");
+		}
+		else
+		{
+			System.out.println("ALL ARE EQUAL ");
 		}
 		
 	}
