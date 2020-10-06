@@ -1,0 +1,16 @@
+package bigNumber;
+
+import java.util.Scanner;
+
+public class PrimalityTest {
+	private static final Scanner scanner = new Scanner(System.in);
+	public static void main(String[] args) {
+		 try (Scanner scanner = new Scanner(System.in);)
+	        {
+	            System.out.println(scanner.nextBigInteger().isProbablePrime(100) ? "prime" : "not prime");
+	        }
+
+	        scanner.close();
+	}
+
+}
